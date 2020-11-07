@@ -39,7 +39,7 @@ function fish_prompt
             if test $__last_status = 0
                 set arrow "$mac_g|$mac_y|$mac_o|$mac_r|$mac_p|$mac_b|"
             else
-                set arrow "$red|||||"
+                set arrow "$red||||||"
             end
         case '*ubuntu*'
             # Ubuntu - https://design.ubuntu.com/brand/colour-palette/
