@@ -13,7 +13,7 @@ $ fisher install eholic/osflavor
 # example
 function fish_prompt
     set -g __osflavor_last_status $status # must be first line of code
-    # some settings...
+    # your prompt settings here
     echo -n -s (__osflavor) (__fish_git_prompt " %s") ' '
 end
  ```
