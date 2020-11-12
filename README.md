@@ -3,7 +3,7 @@
 
 ## Installation
 Install with [jorgebucaran/fisher](https://github.com/jorgebucaran/fisher).
-```terminal
+```console
 $ fisher install eholic/osflavor
 ```
 
@@ -22,8 +22,8 @@ end
  The prompt symbols for each distribution can be specified using `__osflavor_dist_<name>`.
  `<name>` should be *lower-case* substring contained within `uname -a`.
 
-```terminal
+```console
 # example
-$  $set -g __osflavor_dist_darwin ">"
-$  $set -g __osflavor_dist_centos (set_color 9ccd2a)"⬉"(set_color a14f8c)"⬈"(set_color efa724)"⬊"(set_color 262577)"⬋"
+$ set -g __osflavor_dist_darwin ">"
+$ set -g __osflavor_dist_centos (set_color 9ccd2a)"⬉"(set_color a14f8c)"⬈"(set_color efa724)"⬊"(set_color 262577)"⬋"
 ```
