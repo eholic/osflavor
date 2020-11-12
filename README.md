@@ -1,8 +1,9 @@
 # osflavor
-![](fish-terminal.png)
+![](osflavor.png)
 
 ## Installation
-```bash
+Install with [jorgebucaran/fisher](https://github.com/jorgebucaran/fisher).
+```sh
 $ fisher install eholic/osflavor
 ```
 
@@ -11,17 +12,18 @@ $ fisher install eholic/osflavor
  ```fish
 # example
 function fish_prompt
-    set -g __osflavor_last_status $status # must be first line
-
+    set -g __osflavor_last_status $status # must be first line of code
+    # some settings...
     echo -n -s (__osflavor) (__fish_git_prompt " %s") ' '
 end
  ```
 
  ## Customization
- The prompt symbols for each distribution can specified using `__osflavor_dist_<name>`.
+ The prompt symbols for each distribution can be specified using `__osflavor_dist_<name>`.
  `<name>` should be *lower-case* substring contained within `uname -a`.
 
  ```
 # example
-set -g __osflavor_dist_centos (set_color 9ccd2a green)"❖"(set_color efa724 yellow)"❖"(set_color a14f8c cyan)"❖"(set_color 262577 blue)"❖"
+set -g __osflavor_dist_darwin ">"
+set -g __osflavor_dist_centos (set_color 9ccd2a)"⬉"(set_color a14f8c)"⬈"(set_color efa724)"⬊"(set_color 262577)"⬋"
  ```
