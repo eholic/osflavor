@@ -1,4 +1,5 @@
 # osflavor
+> Add OS-flavored symbols to your [fish shell](https://fishshell.com/) prompt.
 ![](osflavor.png)
 
 ## Installation
