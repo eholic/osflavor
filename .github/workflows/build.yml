@@ -10,16 +10,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        shell: fish {0}
+
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+      - uses: fish-actions/install-fish@v1
 
-      - name: Install fish
-        run: |
-          sudo apt-add-repository -yn ppa:fish-shell/release-3
-          sudo apt-get update
-          sudo apt-get install -y fish
       - name: Install Fisher
-        run: curl git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
+        run: curl git.io/fisher | source && fisher install jorgebucaran/fisher
+
       - name: Install osflavor
-        run: fish -c "fisher install $GITHUB_WORKSPACE"
+        run: fisher install $GITHUB_WORKSPACE
