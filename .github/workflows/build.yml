@@ -22,5 +22,11 @@ jobs:
       - name: Install Fisher
         run: curl git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
 
+      - name: Install fishtape
+        run: fisher install jorgebucaran/fishtape
+
       - name: Install osflavor
         run: fisher install $GITHUB_WORKSPACE
+
+      - name: Test osflavor
+        run: fishtape $GITHUB_WORKSPACE/tests/*.fish
