@@ -20,7 +20,7 @@ jobs:
       - uses: fish-actions/install-fish@v1
 
       - name: Install Fisher
-        run: curl git.io/fisher | source && fisher install jorgebucaran/fisher
+        run: curl git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
 
       - name: Install osflavor
         run: fisher install $GITHUB_WORKSPACE
