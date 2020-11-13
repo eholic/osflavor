@@ -1,4 +1,4 @@
-# osflavor
+# osflavor  ![build](https://github.com/eholic/osflavor/workflows/build/badge.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 > A [fish shell](https://fishshell.com/) plugin that automatically adds OS-flavored symbols to your prompt.
 
 ![](osflavor.png)
