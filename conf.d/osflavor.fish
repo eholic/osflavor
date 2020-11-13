@@ -1,4 +1,7 @@
 # author: T.Imanishi
+# default prompt
+set -g __osflavor_dist_OTHERS (set_color cyan)"❯❮❯"
+
 # pre-defined osflavor for major distributions
 
 # Windows

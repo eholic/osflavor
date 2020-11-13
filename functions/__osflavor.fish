@@ -20,7 +20,7 @@ function __osflavor --description 'Write out OS-flavored symbols'
     set -l normal (set_color normal)
 
     # default prompt
-    set -l arrow "$cyan❯❮❯"
+    set -l arrow $__osflavor_dist_OTHERS
 
     # OS-flavored prompt
     # search defined $__osflavor_dist_{distname} within uname description
