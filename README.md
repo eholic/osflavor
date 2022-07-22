@@ -27,6 +27,12 @@ function fish_prompt
 end
 ```
 
+#### For [tide](https://github.com/IlanCosman/tide) user
+```fish
+# ~/.config/fish/config.fish
+set -g tide_character_icon (__osflavor)
+```
+
 ## Pre-defined Distributions
 
 Default symbols are defined in [conf.d/osflavor.fish](conf.d/osflavor.fish).
