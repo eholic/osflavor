@@ -1,4 +1,4 @@
-# osflavor  ![build](https://github.com/eholic/osflavor/workflows/build/badge.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# osflavor  [![build](https://github.com/eholic/osflavor/actions/workflows/build.yml/badge.svg)](https://github.com/eholic/osflavor/actions/workflows/build.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > A [Fish](https://fishshell.com/) prompt that automatically adds OS-flavored symbols to your prompt.
 
