@@ -33,6 +33,15 @@ end
 set -g tide_character_icon (__osflavor)
 ```
 
+#### If you are using [Nerd Font](https://github.com/ryanoasis/nerd-fonts)
+You can use a single character os icon.
+> :pray: I got all definitions from [IlanCosman/tide](https://github.com/IlanCosman/tide).
+
+```fish
+# ~/.config/fish/config.fish
+set -g __osflavor_use_nerd_font_icon 1
+```
+
 ## Pre-defined Distributions
 
 Default symbols are defined in [conf.d/osflavor.fish](conf.d/osflavor.fish).

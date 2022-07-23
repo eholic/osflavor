@@ -19,6 +19,11 @@ function __osflavor --description 'Write out OS-flavored symbols'
     set -l white (set_color white)
     set -l normal (set_color normal)
 
+    # Load Nerd Font single icons
+    if test $__osflavor_use_nerd_font_icon -ne 0
+        __osflavor_load_nerd_icons
+    end
+
     # default prompt
     set -l arrow $__osflavor_dist_OTHERS
 
