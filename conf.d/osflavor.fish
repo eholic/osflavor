@@ -36,7 +36,7 @@ set -g __osflavor_dist_fedora "$fedora_g❯$fedora_d❯$fedora_b❯"
 # Raspberry Pi - https://static.raspberrypi.org/files/Raspberry_Pi_Visual_Guidelines.pdf
 set -l pi_r (set_color c51a4a red)
 set -l pi_g (set_color 6cc04a green)
-set -g __osflavor_dist_raspberrypi "$pi_g⡱$pi_r❆"
+set -g __osflavor_dist_raspberry "$pi_g⡱$pi_r❆"
 
 # CentOS - https://wiki.centos.org/ArtWork/Brand/Logo
 set -l cent_g (set_color 9ccd2a green)

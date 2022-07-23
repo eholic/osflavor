@@ -21,6 +21,7 @@ function __osflavor_load_nerd_icons --description 'Load Nerd Font os icons'
     set -g __osflavor_dist_nixos      (set_color 5277C3)"" # https://github.com/NixOS/nixos-artwork/tree/master/logo
     set -g __osflavor_dist_opensuse   (set_color 173f4f)"" # https://en.opensuse.org/openSUSE:Artwork_brand
     set -g __osflavor_dist_raspbian   (set_color A22846)"" # https://static.raspberrypi.org/files/Raspberry_Pi_Visual_Guidelines_2020.pdf
+    set -g __osflavor_dist_raspberry  (set_color A22846)"" # https://static.raspberrypi.org/files/Raspberry_Pi_Visual_Guidelines_2020.pdf
     set -g __osflavor_dist_rhel       (set_color 000000)"" # https://www.redhat.com/en/about/brand/standards/color
     set -g __osflavor_dist_sabayon                      "" # Can't find colors, and they are rebranding anyway
     set -g __osflavor_dist_slackware                    "" # Doesn't really have a logo, and the colors are too close to PWD blue anyway
