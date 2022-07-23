@@ -36,6 +36,8 @@ set -g __osflavor_use_nerd_font_icon 1
 ```
 > :pray: I got all definitions from [IlanCosman/tide](https://github.com/IlanCosman/tide).
 
+![](osflavor_nerd.png)
+
 ### For other prompt user
 Add the following option in your `~/.config/fish/config.fish`.
 #### [IlanCosman/tide](https://github.com/IlanCosman/tide)
