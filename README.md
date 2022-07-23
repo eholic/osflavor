@@ -27,24 +27,24 @@ function fish_prompt
 end
 ```
 
-#### For [tide](https://github.com/IlanCosman/tide) user
-```fish
-# ~/.config/fish/config.fish
-set -g tide_character_icon (__osflavor)
-```
-
 #### If you are using [Nerd Font](https://github.com/ryanoasis/nerd-fonts)
-You can use a single character os icon.
+You can use a single character os icon by adding the following option in your `~/.config/fish/config.fish`.
+
+```fish
+set -g __osflavor_use_nerd_font_icon 1
+```
 > :pray: I got all definitions from [IlanCosman/tide](https://github.com/IlanCosman/tide).
 
+### For other prompt user
+Add the following option in your `~/.config/fish/config.fish`.
+- [IlanCosman/tide](https://github.com/IlanCosman/tide)
 ```fish
-# ~/.config/fish/config.fish
-set -g __osflavor_use_nerd_font_icon 1
+set -g tide_character_icon (__osflavor)
 ```
 
 ## Pre-defined Distributions
 
-Default symbols are defined in [conf.d/osflavor.fish](conf.d/osflavor.fish).
+Default symbols are defined in [conf.d/osflavor.fish](conf.d/osflavor.fish) and [conf.d/__osflavor_nerd.fish](conf.d/__osflavor_nerd.fish).
 
 If you want to change the default symbols, see [Customization](https://github.com/eholic/osflavor#customization).
 
