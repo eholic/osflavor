@@ -32,14 +32,25 @@ You can use a single character os icon by adding the following option in your `~
 
 ```fish
 set -g __osflavor_use_nerd_font_icon 1
+# must be before using (__osflavor)
 ```
 > :pray: I got all definitions from [IlanCosman/tide](https://github.com/IlanCosman/tide).
 
 ### For other prompt user
 Add the following option in your `~/.config/fish/config.fish`.
-- [IlanCosman/tide](https://github.com/IlanCosman/tide)
+#### [IlanCosman/tide](https://github.com/IlanCosman/tide)
 ```fish
 set -g tide_character_icon (__osflavor)
+```
+
+#### [pure-fish/pure](https://github.com/pure-fish/pure)
+```fish
+set -g pure_symbol_prompt (__osflavor) 
+```
+
+#### [jorgebucaran/hydro](https://github.com/jorgebucaran/hydro)
+```fish
+set -g hydro_symbol_prompt (__osflavor)
 ```
 
 ## Pre-defined Distributions
